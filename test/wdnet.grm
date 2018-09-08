@@ -1,0 +1,10 @@
+$noun = brother | mom | dad | home | week | weeks | care | cheesecake | cake | chocolate | popcorn | time | movie | party | birthday | today | story | woman | everybody | idea | park | nazi | german | book | university | keys | french | car | house | bathroom | kitchen | church | god | coffee | tea | choice;
+$pronoun = I | me | he | she | you | my | it | her | what | them | their;
+$verb = takes | could | have | is | go | buy | will | throw | was | read | sitting | understand | took | walked | do | told | reading | writing | going | works | give | can | find | believes | believe | goes | drive;
+$determiner = the | a | an;
+$preposition = that | of | to | at | in | for; 
+$adjective = good | interesting | charming | difficult | sure | huge | long | fluent;
+$adverb = not | very | now;
+$number = two | one;
+$pos = $preposition | $determiner | $pronoun | $noun | $verb | $adjective | $adverb | $number;
+( SENT-START ( {$pos}(neither|either|if|such|both)<$pos>(nor|or|then|that|and)<$pos> ) SENT-END )
