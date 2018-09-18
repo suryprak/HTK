@@ -1,1101 +1,909 @@
 VERSION=1.0
-N=307  L=792  
+N=330  L=577  
 I=0    W=SENT-END            
-I=1    W=one                 
+I=1    W=movie               
 I=2    W=!NULL               
-I=3    W=two                 
-I=4    W=now                 
-I=5    W=very                
-I=6    W=not                 
-I=7    W=fluent              
-I=8    W=long                
-I=9    W=huge                
-I=10   W=sure                
-I=11   W=difficult           
-I=12   W=charming            
-I=13   W=interesting         
-I=14   W=good                
-I=15   W=drive               
-I=16   W=goes                
-I=17   W=believe             
-I=18   W=believes            
-I=19   W=find                
-I=20   W=can                 
-I=21   W=give                
-I=22   W=works               
-I=23   W=going               
-I=24   W=writing             
-I=25   W=reading             
-I=26   W=told                
-I=27   W=do                  
-I=28   W=walked              
-I=29   W=took                
-I=30   W=understand          
-I=31   W=sitting             
-I=32   W=read                
-I=33   W=was                 
-I=34   W=throw               
-I=35   W=will                
-I=36   W=buy                 
-I=37   W=go                  
-I=38   W=is                  
-I=39   W=have                
-I=40   W=could               
-I=41   W=takes               
-I=42   W=choice              
-I=43   W=tea                 
-I=44   W=coffee              
-I=45   W=god                 
-I=46   W=church              
-I=47   W=kitchen             
-I=48   W=bathroom            
-I=49   W=house               
-I=50   W=car                 
-I=51   W=french              
-I=52   W=keys                
-I=53   W=university          
-I=54   W=book                
-I=55   W=german              
-I=56   W=nazi                
-I=57   W=park                
-I=58   W=idea                
-I=59   W=everybody           
-I=60   W=woman               
-I=61   W=story               
-I=62   W=today               
-I=63   W=birthday            
-I=64   W=party               
-I=65   W=movie               
-I=66   W=time                
-I=67   W=popcorn             
-I=68   W=chocolate           
-I=69   W=cake                
-I=70   W=cheesecake          
-I=71   W=care                
-I=72   W=weeks               
-I=73   W=week                
-I=74   W=home                
-I=75   W=dad                 
-I=76   W=mom                 
-I=77   W=brother             
-I=78   W=their               
-I=79   W=them                
-I=80   W=what                
-I=81   W=her                 
-I=82   W=it                  
-I=83   W=my                  
-I=84   W=you                 
-I=85   W=she                 
-I=86   W=he                  
-I=87   W=me                  
-I=88   W=I                   
-I=89   W=an                  
-I=90   W=a                   
-I=91   W=the                 
-I=92   W=for                 
-I=93   W=in                  
-I=94   W=at                  
-I=95   W=to                  
-I=96   W=of                  
-I=97   W=that                
-I=98   W=and                 
-I=99   W=!NULL               
-I=100  W=that                
-I=101  W=then                
-I=102  W=or                  
-I=103  W=nor                 
-I=104  W=one                 
+I=3    W=lawyer              
+I=4    W=hotel               
+I=5    W=office              
+I=6    W=country             
+I=7    W=language            
+I=8    W=university          
+I=9    W=book                
+I=10   W=park                
+I=11   W=party               
+I=12   W=chocolate           
+I=13   W=cake                
+I=14   W=home                
+I=15   W=the                 
+I=16   W=!NULL               
+I=17   W=an                  
+I=18   W=a                   
+I=19   W=learning            
+I=20   W=!NULL               
+I=21   W=eating              
+I=22   W=watching            
+I=23   W=talking             
+I=24   W=leaving             
+I=25   W=waiting             
+I=26   W=sitting             
+I=27   W=staying             
+I=28   W=be                  
+I=29   W=will                
+I=30   W=we                  
+I=31   W=!NULL               
+I=32   W=they                
+I=33   W=he                  
+I=34   W=she                 
+I=35   W=I                   
+I=36   W=movie               
+I=37   W=lawyer              
+I=38   W=hotel               
+I=39   W=office              
+I=40   W=country             
+I=41   W=language            
+I=42   W=university          
+I=43   W=book                
+I=44   W=park                
+I=45   W=party               
+I=46   W=chocolate           
+I=47   W=cake                
+I=48   W=home                
+I=49   W=to                  
+I=50   W=!NULL               
+I=51   W=this                
+I=52   W=of                  
+I=53   W=in                  
+I=54   W=at                  
+I=55   W=learning            
+I=56   W=!NULL               
+I=57   W=eating              
+I=58   W=watching            
+I=59   W=talking             
+I=60   W=leaving             
+I=61   W=waiting             
+I=62   W=sitting             
+I=63   W=staying             
+I=64   W=are                 
+I=65   W=!NULL               
+I=66   W=is                  
+I=67   W=we                  
+I=68   W=!NULL               
+I=69   W=they                
+I=70   W=he                  
+I=71   W=she                 
+I=72   W=I                   
+I=73   W=movie               
+I=74   W=lawyer              
+I=75   W=hotel               
+I=76   W=office              
+I=77   W=country             
+I=78   W=language            
+I=79   W=university          
+I=80   W=book                
+I=81   W=park                
+I=82   W=party               
+I=83   W=chocolate           
+I=84   W=cake                
+I=85   W=home                
+I=86   W=the                 
+I=87   W=!NULL               
+I=88   W=an                  
+I=89   W=a                   
+I=90   W=to                  
+I=91   W=!NULL               
+I=92   W=this                
+I=93   W=of                  
+I=94   W=in                  
+I=95   W=at                  
+I=96   W=learning            
+I=97   W=eating              
+I=98   W=watching            
+I=99   W=talking             
+I=100  W=leaving             
+I=101  W=waiting             
+I=102  W=sitting             
+I=103  W=staying             
+I=104  W=are                 
 I=105  W=!NULL               
-I=106  W=two                 
-I=107  W=now                 
-I=108  W=very                
-I=109  W=not                 
-I=110  W=fluent              
-I=111  W=long                
-I=112  W=huge                
-I=113  W=sure                
-I=114  W=difficult           
-I=115  W=charming            
-I=116  W=interesting         
-I=117  W=good                
-I=118  W=drive               
-I=119  W=goes                
-I=120  W=believe             
-I=121  W=believes            
-I=122  W=find                
-I=123  W=can                 
-I=124  W=give                
-I=125  W=works               
-I=126  W=going               
-I=127  W=writing             
-I=128  W=reading             
-I=129  W=told                
-I=130  W=do                  
-I=131  W=walked              
-I=132  W=took                
-I=133  W=understand          
-I=134  W=sitting             
-I=135  W=read                
-I=136  W=was                 
-I=137  W=throw               
-I=138  W=will                
-I=139  W=buy                 
-I=140  W=go                  
-I=141  W=is                  
-I=142  W=have                
-I=143  W=could               
-I=144  W=takes               
-I=145  W=choice              
-I=146  W=tea                 
-I=147  W=coffee              
-I=148  W=god                 
-I=149  W=church              
-I=150  W=kitchen             
-I=151  W=bathroom            
-I=152  W=house               
-I=153  W=car                 
-I=154  W=french              
-I=155  W=keys                
-I=156  W=university          
-I=157  W=book                
-I=158  W=german              
-I=159  W=nazi                
+I=106  W=is                  
+I=107  W=we                  
+I=108  W=!NULL               
+I=109  W=they                
+I=110  W=he                  
+I=111  W=she                 
+I=112  W=I                   
+I=113  W=movie               
+I=114  W=lawyer              
+I=115  W=hotel               
+I=116  W=office              
+I=117  W=country             
+I=118  W=language            
+I=119  W=university          
+I=120  W=book                
+I=121  W=park                
+I=122  W=party               
+I=123  W=chocolate           
+I=124  W=cake                
+I=125  W=home                
+I=126  W=the                 
+I=127  W=!NULL               
+I=128  W=an                  
+I=129  W=a                   
+I=130  W=to                  
+I=131  W=!NULL               
+I=132  W=this                
+I=133  W=of                  
+I=134  W=in                  
+I=135  W=at                  
+I=136  W=learnt              
+I=137  W=!NULL               
+I=138  W=worked              
+I=139  W=called              
+I=140  W=eaten               
+I=141  W=watched             
+I=142  W=visited             
+I=143  W=had                 
+I=144  W=!NULL               
+I=145  W=have                
+I=146  W=we                  
+I=147  W=!NULL               
+I=148  W=they                
+I=149  W=he                  
+I=150  W=she                 
+I=151  W=I                   
+I=152  W=movie               
+I=153  W=lawyer              
+I=154  W=hotel               
+I=155  W=office              
+I=156  W=country             
+I=157  W=language            
+I=158  W=university          
+I=159  W=book                
 I=160  W=park                
-I=161  W=idea                
-I=162  W=everybody           
-I=163  W=woman               
-I=164  W=story               
-I=165  W=today               
-I=166  W=birthday            
-I=167  W=party               
-I=168  W=movie               
-I=169  W=time                
-I=170  W=popcorn             
-I=171  W=chocolate           
-I=172  W=cake                
-I=173  W=cheesecake          
-I=174  W=care                
-I=175  W=weeks               
-I=176  W=week                
-I=177  W=home                
-I=178  W=dad                 
-I=179  W=mom                 
-I=180  W=brother             
-I=181  W=their               
-I=182  W=them                
-I=183  W=what                
-I=184  W=her                 
-I=185  W=it                  
-I=186  W=my                  
-I=187  W=you                 
-I=188  W=she                 
-I=189  W=he                  
-I=190  W=me                  
-I=191  W=I                   
-I=192  W=an                  
-I=193  W=a                   
-I=194  W=the                 
-I=195  W=for                 
-I=196  W=in                  
-I=197  W=at                  
+I=161  W=party               
+I=162  W=chocolate           
+I=163  W=cake                
+I=164  W=home                
+I=165  W=the                 
+I=166  W=!NULL               
+I=167  W=an                  
+I=168  W=a                   
+I=169  W=learnt              
+I=170  W=!NULL               
+I=171  W=worked              
+I=172  W=called              
+I=173  W=eaten               
+I=174  W=watched             
+I=175  W=visited             
+I=176  W=had                 
+I=177  W=!NULL               
+I=178  W=have                
+I=179  W=we                  
+I=180  W=!NULL               
+I=181  W=they                
+I=182  W=he                  
+I=183  W=she                 
+I=184  W=I                   
+I=185  W=movie               
+I=186  W=lawyer              
+I=187  W=hotel               
+I=188  W=office              
+I=189  W=country             
+I=190  W=language            
+I=191  W=university          
+I=192  W=book                
+I=193  W=park                
+I=194  W=party               
+I=195  W=chocolate           
+I=196  W=cake                
+I=197  W=home                
 I=198  W=to                  
-I=199  W=of                  
-I=200  W=that                
-I=201  W=both                
-I=202  W=!NULL               
-I=203  W=such                
-I=204  W=if                  
-I=205  W=either              
-I=206  W=neither             
-I=207  W=one                 
-I=208  W=!NULL               
-I=209  W=two                 
-I=210  W=now                 
-I=211  W=very                
-I=212  W=not                 
-I=213  W=fluent              
-I=214  W=long                
-I=215  W=huge                
-I=216  W=sure                
-I=217  W=difficult           
-I=218  W=charming            
-I=219  W=interesting         
-I=220  W=good                
-I=221  W=drive               
-I=222  W=goes                
-I=223  W=believe             
-I=224  W=believes            
-I=225  W=find                
-I=226  W=can                 
-I=227  W=give                
-I=228  W=works               
-I=229  W=going               
-I=230  W=writing             
-I=231  W=reading             
-I=232  W=told                
-I=233  W=do                  
-I=234  W=walked              
-I=235  W=took                
-I=236  W=understand          
-I=237  W=sitting             
-I=238  W=read                
-I=239  W=was                 
-I=240  W=throw               
-I=241  W=will                
-I=242  W=buy                 
+I=199  W=!NULL               
+I=200  W=this                
+I=201  W=of                  
+I=202  W=in                  
+I=203  W=at                  
+I=204  W=learnt              
+I=205  W=!NULL               
+I=206  W=worked              
+I=207  W=called              
+I=208  W=eaten               
+I=209  W=watched             
+I=210  W=visited             
+I=211  W=had                 
+I=212  W=!NULL               
+I=213  W=have                
+I=214  W=we                  
+I=215  W=!NULL               
+I=216  W=they                
+I=217  W=he                  
+I=218  W=she                 
+I=219  W=I                   
+I=220  W=movie               
+I=221  W=lawyer              
+I=222  W=hotel               
+I=223  W=office              
+I=224  W=country             
+I=225  W=language            
+I=226  W=university          
+I=227  W=book                
+I=228  W=park                
+I=229  W=party               
+I=230  W=chocolate           
+I=231  W=cake                
+I=232  W=home                
+I=233  W=to                  
+I=234  W=!NULL               
+I=235  W=this                
+I=236  W=of                  
+I=237  W=in                  
+I=238  W=at                  
+I=239  W=learn               
+I=240  W=!NULL               
+I=241  W=walk                
+I=242  W=prepare             
 I=243  W=go                  
-I=244  W=is                  
-I=245  W=have                
-I=246  W=could               
-I=247  W=takes               
-I=248  W=choice              
-I=249  W=tea                 
-I=250  W=coffee              
-I=251  W=god                 
-I=252  W=church              
-I=253  W=kitchen             
-I=254  W=bathroom            
-I=255  W=house               
-I=256  W=car                 
-I=257  W=french              
-I=258  W=keys                
-I=259  W=university          
-I=260  W=book                
-I=261  W=german              
-I=262  W=nazi                
+I=244  W=throw               
+I=245  W=write               
+I=246  W=shall               
+I=247  W=!NULL               
+I=248  W=will                
+I=249  W=we                  
+I=250  W=!NULL               
+I=251  W=they                
+I=252  W=he                  
+I=253  W=she                 
+I=254  W=I                   
+I=255  W=movie               
+I=256  W=lawyer              
+I=257  W=hotel               
+I=258  W=office              
+I=259  W=country             
+I=260  W=language            
+I=261  W=university          
+I=262  W=book                
 I=263  W=park                
-I=264  W=idea                
-I=265  W=everybody           
-I=266  W=woman               
-I=267  W=story               
-I=268  W=today               
-I=269  W=birthday            
-I=270  W=party               
-I=271  W=movie               
-I=272  W=time                
-I=273  W=popcorn             
-I=274  W=chocolate           
-I=275  W=cake                
-I=276  W=cheesecake          
-I=277  W=care                
-I=278  W=weeks               
-I=279  W=week                
-I=280  W=home                
-I=281  W=dad                 
-I=282  W=mom                 
-I=283  W=brother             
-I=284  W=their               
-I=285  W=them                
-I=286  W=what                
-I=287  W=her                 
-I=288  W=it                  
-I=289  W=my                  
-I=290  W=you                 
-I=291  W=she                 
-I=292  W=he                  
-I=293  W=me                  
-I=294  W=I                   
-I=295  W=an                  
-I=296  W=a                   
-I=297  W=the                 
-I=298  W=for                 
-I=299  W=in                  
-I=300  W=at                  
-I=301  W=to                  
-I=302  W=of                  
-I=303  W=that                
-I=304  W=SENT-START          
-I=305  W=!NULL               
-I=306  W=!NULL               
+I=264  W=party               
+I=265  W=chocolate           
+I=266  W=cake                
+I=267  W=home                
+I=268  W=the                 
+I=269  W=!NULL               
+I=270  W=an                  
+I=271  W=a                   
+I=272  W=to                  
+I=273  W=!NULL               
+I=274  W=this                
+I=275  W=of                  
+I=276  W=in                  
+I=277  W=at                  
+I=278  W=learn               
+I=279  W=!NULL               
+I=280  W=walk                
+I=281  W=prepare             
+I=282  W=go                  
+I=283  W=throw               
+I=284  W=write               
+I=285  W=shall               
+I=286  W=!NULL               
+I=287  W=will                
+I=288  W=we                  
+I=289  W=!NULL               
+I=290  W=they                
+I=291  W=he                  
+I=292  W=she                 
+I=293  W=I                   
+I=294  W=movie               
+I=295  W=lawyer              
+I=296  W=hotel               
+I=297  W=office              
+I=298  W=country             
+I=299  W=language            
+I=300  W=university          
+I=301  W=book                
+I=302  W=park                
+I=303  W=party               
+I=304  W=chocolate           
+I=305  W=cake                
+I=306  W=home                
+I=307  W=the                 
+I=308  W=!NULL               
+I=309  W=an                  
+I=310  W=a                   
+I=311  W=learn               
+I=312  W=!NULL               
+I=313  W=walk                
+I=314  W=prepare             
+I=315  W=go                  
+I=316  W=throw               
+I=317  W=write               
+I=318  W=shall               
+I=319  W=!NULL               
+I=320  W=will                
+I=321  W=we                  
+I=322  W=!NULL               
+I=323  W=they                
+I=324  W=he                  
+I=325  W=she                 
+I=326  W=I                   
+I=327  W=SENT-START          
+I=328  W=!NULL               
+I=329  W=!NULL               
 J=0     S=2    E=0    
-J=1     S=2    E=1    
-J=2     S=99   E=1    
-J=3     S=1    E=2    
-J=4     S=3    E=2    
-J=5     S=4    E=2    
-J=6     S=5    E=2    
-J=7     S=6    E=2    
-J=8     S=7    E=2    
-J=9     S=8    E=2    
-J=10    S=9    E=2    
-J=11    S=10   E=2    
-J=12    S=11   E=2    
-J=13    S=12   E=2    
-J=14    S=13   E=2    
-J=15    S=14   E=2    
-J=16    S=15   E=2    
-J=17    S=16   E=2    
-J=18    S=17   E=2    
-J=19    S=18   E=2    
-J=20    S=19   E=2    
-J=21    S=20   E=2    
-J=22    S=21   E=2    
-J=23    S=22   E=2    
-J=24    S=23   E=2    
-J=25    S=24   E=2    
-J=26    S=25   E=2    
-J=27    S=26   E=2    
-J=28    S=27   E=2    
-J=29    S=28   E=2    
-J=30    S=29   E=2    
-J=31    S=30   E=2    
-J=32    S=31   E=2    
-J=33    S=32   E=2    
-J=34    S=33   E=2    
-J=35    S=34   E=2    
-J=36    S=35   E=2    
-J=37    S=36   E=2    
-J=38    S=37   E=2    
-J=39    S=38   E=2    
-J=40    S=39   E=2    
-J=41    S=40   E=2    
-J=42    S=41   E=2    
-J=43    S=42   E=2    
-J=44    S=43   E=2    
-J=45    S=44   E=2    
-J=46    S=45   E=2    
-J=47    S=46   E=2    
-J=48    S=47   E=2    
-J=49    S=48   E=2    
-J=50    S=49   E=2    
-J=51    S=50   E=2    
-J=52    S=51   E=2    
-J=53    S=52   E=2    
-J=54    S=53   E=2    
-J=55    S=54   E=2    
-J=56    S=55   E=2    
-J=57    S=56   E=2    
-J=58    S=57   E=2    
-J=59    S=58   E=2    
-J=60    S=59   E=2    
-J=61    S=60   E=2    
-J=62    S=61   E=2    
-J=63    S=62   E=2    
-J=64    S=63   E=2    
-J=65    S=64   E=2    
-J=66    S=65   E=2    
-J=67    S=66   E=2    
-J=68    S=67   E=2    
-J=69    S=68   E=2    
-J=70    S=69   E=2    
-J=71    S=70   E=2    
-J=72    S=71   E=2    
-J=73    S=72   E=2    
-J=74    S=73   E=2    
-J=75    S=74   E=2    
-J=76    S=75   E=2    
-J=77    S=76   E=2    
-J=78    S=77   E=2    
-J=79    S=78   E=2    
-J=80    S=79   E=2    
-J=81    S=80   E=2    
-J=82    S=81   E=2    
-J=83    S=82   E=2    
-J=84    S=83   E=2    
-J=85    S=84   E=2    
-J=86    S=85   E=2    
-J=87    S=86   E=2    
-J=88    S=87   E=2    
-J=89    S=88   E=2    
-J=90    S=89   E=2    
-J=91    S=90   E=2    
-J=92    S=91   E=2    
-J=93    S=92   E=2    
-J=94    S=93   E=2    
-J=95    S=94   E=2    
-J=96    S=95   E=2    
-J=97    S=96   E=2    
-J=98    S=97   E=2    
-J=99    S=2    E=3    
-J=100   S=99   E=3    
-J=101   S=2    E=4    
-J=102   S=99   E=4    
-J=103   S=2    E=5    
-J=104   S=99   E=5    
-J=105   S=2    E=6    
-J=106   S=99   E=6    
-J=107   S=2    E=7    
-J=108   S=99   E=7    
-J=109   S=2    E=8    
-J=110   S=99   E=8    
-J=111   S=2    E=9    
-J=112   S=99   E=9    
-J=113   S=2    E=10   
-J=114   S=99   E=10   
-J=115   S=2    E=11   
-J=116   S=99   E=11   
-J=117   S=2    E=12   
-J=118   S=99   E=12   
-J=119   S=2    E=13   
-J=120   S=99   E=13   
-J=121   S=2    E=14   
-J=122   S=99   E=14   
-J=123   S=2    E=15   
-J=124   S=99   E=15   
-J=125   S=2    E=16   
-J=126   S=99   E=16   
-J=127   S=2    E=17   
-J=128   S=99   E=17   
-J=129   S=2    E=18   
-J=130   S=99   E=18   
-J=131   S=2    E=19   
-J=132   S=99   E=19   
-J=133   S=2    E=20   
-J=134   S=99   E=20   
-J=135   S=2    E=21   
-J=136   S=99   E=21   
-J=137   S=2    E=22   
-J=138   S=99   E=22   
-J=139   S=2    E=23   
-J=140   S=99   E=23   
-J=141   S=2    E=24   
-J=142   S=99   E=24   
-J=143   S=2    E=25   
-J=144   S=99   E=25   
-J=145   S=2    E=26   
-J=146   S=99   E=26   
-J=147   S=2    E=27   
-J=148   S=99   E=27   
-J=149   S=2    E=28   
-J=150   S=99   E=28   
-J=151   S=2    E=29   
-J=152   S=99   E=29   
-J=153   S=2    E=30   
-J=154   S=99   E=30   
-J=155   S=2    E=31   
-J=156   S=99   E=31   
-J=157   S=2    E=32   
-J=158   S=99   E=32   
-J=159   S=2    E=33   
-J=160   S=99   E=33   
-J=161   S=2    E=34   
-J=162   S=99   E=34   
-J=163   S=2    E=35   
-J=164   S=99   E=35   
-J=165   S=2    E=36   
-J=166   S=99   E=36   
-J=167   S=2    E=37   
-J=168   S=99   E=37   
-J=169   S=2    E=38   
-J=170   S=99   E=38   
-J=171   S=2    E=39   
-J=172   S=99   E=39   
-J=173   S=2    E=40   
-J=174   S=99   E=40   
-J=175   S=2    E=41   
-J=176   S=99   E=41   
-J=177   S=2    E=42   
-J=178   S=99   E=42   
-J=179   S=2    E=43   
-J=180   S=99   E=43   
-J=181   S=2    E=44   
-J=182   S=99   E=44   
-J=183   S=2    E=45   
-J=184   S=99   E=45   
-J=185   S=2    E=46   
-J=186   S=99   E=46   
-J=187   S=2    E=47   
-J=188   S=99   E=47   
-J=189   S=2    E=48   
-J=190   S=99   E=48   
-J=191   S=2    E=49   
-J=192   S=99   E=49   
-J=193   S=2    E=50   
-J=194   S=99   E=50   
-J=195   S=2    E=51   
-J=196   S=99   E=51   
-J=197   S=2    E=52   
-J=198   S=99   E=52   
-J=199   S=2    E=53   
-J=200   S=99   E=53   
-J=201   S=2    E=54   
-J=202   S=99   E=54   
-J=203   S=2    E=55   
-J=204   S=99   E=55   
-J=205   S=2    E=56   
-J=206   S=99   E=56   
-J=207   S=2    E=57   
-J=208   S=99   E=57   
-J=209   S=2    E=58   
-J=210   S=99   E=58   
-J=211   S=2    E=59   
-J=212   S=99   E=59   
-J=213   S=2    E=60   
-J=214   S=99   E=60   
-J=215   S=2    E=61   
-J=216   S=99   E=61   
-J=217   S=2    E=62   
-J=218   S=99   E=62   
-J=219   S=2    E=63   
-J=220   S=99   E=63   
-J=221   S=2    E=64   
-J=222   S=99   E=64   
-J=223   S=2    E=65   
-J=224   S=99   E=65   
-J=225   S=2    E=66   
-J=226   S=99   E=66   
-J=227   S=2    E=67   
-J=228   S=99   E=67   
-J=229   S=2    E=68   
-J=230   S=99   E=68   
-J=231   S=2    E=69   
-J=232   S=99   E=69   
-J=233   S=2    E=70   
-J=234   S=99   E=70   
-J=235   S=2    E=71   
-J=236   S=99   E=71   
-J=237   S=2    E=72   
-J=238   S=99   E=72   
-J=239   S=2    E=73   
-J=240   S=99   E=73   
-J=241   S=2    E=74   
-J=242   S=99   E=74   
-J=243   S=2    E=75   
-J=244   S=99   E=75   
-J=245   S=2    E=76   
-J=246   S=99   E=76   
-J=247   S=2    E=77   
-J=248   S=99   E=77   
-J=249   S=2    E=78   
-J=250   S=99   E=78   
-J=251   S=2    E=79   
-J=252   S=99   E=79   
-J=253   S=2    E=80   
-J=254   S=99   E=80   
-J=255   S=2    E=81   
-J=256   S=99   E=81   
-J=257   S=2    E=82   
-J=258   S=99   E=82   
-J=259   S=2    E=83   
-J=260   S=99   E=83   
-J=261   S=2    E=84   
-J=262   S=99   E=84   
-J=263   S=2    E=85   
-J=264   S=99   E=85   
-J=265   S=2    E=86   
-J=266   S=99   E=86   
-J=267   S=2    E=87   
-J=268   S=99   E=87   
-J=269   S=2    E=88   
-J=270   S=99   E=88   
-J=271   S=2    E=89   
-J=272   S=99   E=89   
-J=273   S=2    E=90   
-J=274   S=99   E=90   
-J=275   S=2    E=91   
-J=276   S=99   E=91   
-J=277   S=2    E=92   
-J=278   S=99   E=92   
-J=279   S=2    E=93   
-J=280   S=99   E=93   
-J=281   S=2    E=94   
-J=282   S=99   E=94   
-J=283   S=2    E=95   
-J=284   S=99   E=95   
-J=285   S=2    E=96   
-J=286   S=99   E=96   
-J=287   S=2    E=97   
-J=288   S=99   E=97   
-J=289   S=105  E=98   
-J=290   S=98   E=99   
-J=291   S=100  E=99   
-J=292   S=101  E=99   
-J=293   S=102  E=99   
-J=294   S=103  E=99   
-J=295   S=105  E=100  
-J=296   S=105  E=101  
-J=297   S=105  E=102  
-J=298   S=105  E=103  
-J=299   S=105  E=104  
-J=300   S=202  E=104  
-J=301   S=104  E=105  
-J=302   S=106  E=105  
-J=303   S=107  E=105  
-J=304   S=108  E=105  
-J=305   S=109  E=105  
-J=306   S=110  E=105  
-J=307   S=111  E=105  
-J=308   S=112  E=105  
-J=309   S=113  E=105  
-J=310   S=114  E=105  
-J=311   S=115  E=105  
-J=312   S=116  E=105  
-J=313   S=117  E=105  
-J=314   S=118  E=105  
-J=315   S=119  E=105  
-J=316   S=120  E=105  
-J=317   S=121  E=105  
-J=318   S=122  E=105  
-J=319   S=123  E=105  
-J=320   S=124  E=105  
-J=321   S=125  E=105  
-J=322   S=126  E=105  
-J=323   S=127  E=105  
-J=324   S=128  E=105  
-J=325   S=129  E=105  
-J=326   S=130  E=105  
-J=327   S=131  E=105  
-J=328   S=132  E=105  
-J=329   S=133  E=105  
-J=330   S=134  E=105  
-J=331   S=135  E=105  
-J=332   S=136  E=105  
-J=333   S=137  E=105  
-J=334   S=138  E=105  
-J=335   S=139  E=105  
-J=336   S=140  E=105  
-J=337   S=141  E=105  
-J=338   S=142  E=105  
-J=339   S=143  E=105  
-J=340   S=144  E=105  
-J=341   S=145  E=105  
-J=342   S=146  E=105  
-J=343   S=147  E=105  
-J=344   S=148  E=105  
-J=345   S=149  E=105  
-J=346   S=150  E=105  
-J=347   S=151  E=105  
-J=348   S=152  E=105  
-J=349   S=153  E=105  
-J=350   S=154  E=105  
-J=351   S=155  E=105  
-J=352   S=156  E=105  
-J=353   S=157  E=105  
-J=354   S=158  E=105  
-J=355   S=159  E=105  
-J=356   S=160  E=105  
-J=357   S=161  E=105  
-J=358   S=162  E=105  
-J=359   S=163  E=105  
-J=360   S=164  E=105  
-J=361   S=165  E=105  
-J=362   S=166  E=105  
-J=363   S=167  E=105  
-J=364   S=168  E=105  
-J=365   S=169  E=105  
-J=366   S=170  E=105  
-J=367   S=171  E=105  
-J=368   S=172  E=105  
-J=369   S=173  E=105  
-J=370   S=174  E=105  
-J=371   S=175  E=105  
-J=372   S=176  E=105  
-J=373   S=177  E=105  
-J=374   S=178  E=105  
-J=375   S=179  E=105  
-J=376   S=180  E=105  
-J=377   S=181  E=105  
-J=378   S=182  E=105  
-J=379   S=183  E=105  
-J=380   S=184  E=105  
-J=381   S=185  E=105  
-J=382   S=186  E=105  
-J=383   S=187  E=105  
-J=384   S=188  E=105  
-J=385   S=189  E=105  
-J=386   S=190  E=105  
-J=387   S=191  E=105  
-J=388   S=192  E=105  
-J=389   S=193  E=105  
-J=390   S=194  E=105  
-J=391   S=195  E=105  
-J=392   S=196  E=105  
-J=393   S=197  E=105  
-J=394   S=198  E=105  
-J=395   S=199  E=105  
-J=396   S=200  E=105  
-J=397   S=105  E=106  
-J=398   S=202  E=106  
-J=399   S=105  E=107  
-J=400   S=202  E=107  
-J=401   S=105  E=108  
-J=402   S=202  E=108  
-J=403   S=105  E=109  
-J=404   S=202  E=109  
-J=405   S=105  E=110  
-J=406   S=202  E=110  
-J=407   S=105  E=111  
-J=408   S=202  E=111  
-J=409   S=105  E=112  
-J=410   S=202  E=112  
-J=411   S=105  E=113  
-J=412   S=202  E=113  
-J=413   S=105  E=114  
-J=414   S=202  E=114  
-J=415   S=105  E=115  
-J=416   S=202  E=115  
-J=417   S=105  E=116  
-J=418   S=202  E=116  
-J=419   S=105  E=117  
-J=420   S=202  E=117  
-J=421   S=105  E=118  
-J=422   S=202  E=118  
-J=423   S=105  E=119  
-J=424   S=202  E=119  
-J=425   S=105  E=120  
-J=426   S=202  E=120  
-J=427   S=105  E=121  
-J=428   S=202  E=121  
-J=429   S=105  E=122  
-J=430   S=202  E=122  
-J=431   S=105  E=123  
-J=432   S=202  E=123  
-J=433   S=105  E=124  
-J=434   S=202  E=124  
-J=435   S=105  E=125  
-J=436   S=202  E=125  
-J=437   S=105  E=126  
-J=438   S=202  E=126  
-J=439   S=105  E=127  
-J=440   S=202  E=127  
-J=441   S=105  E=128  
-J=442   S=202  E=128  
-J=443   S=105  E=129  
-J=444   S=202  E=129  
-J=445   S=105  E=130  
-J=446   S=202  E=130  
-J=447   S=105  E=131  
-J=448   S=202  E=131  
-J=449   S=105  E=132  
-J=450   S=202  E=132  
-J=451   S=105  E=133  
-J=452   S=202  E=133  
-J=453   S=105  E=134  
-J=454   S=202  E=134  
-J=455   S=105  E=135  
-J=456   S=202  E=135  
-J=457   S=105  E=136  
-J=458   S=202  E=136  
-J=459   S=105  E=137  
-J=460   S=202  E=137  
-J=461   S=105  E=138  
-J=462   S=202  E=138  
-J=463   S=105  E=139  
-J=464   S=202  E=139  
-J=465   S=105  E=140  
-J=466   S=202  E=140  
-J=467   S=105  E=141  
-J=468   S=202  E=141  
-J=469   S=105  E=142  
-J=470   S=202  E=142  
-J=471   S=105  E=143  
-J=472   S=202  E=143  
-J=473   S=105  E=144  
-J=474   S=202  E=144  
-J=475   S=105  E=145  
-J=476   S=202  E=145  
-J=477   S=105  E=146  
-J=478   S=202  E=146  
-J=479   S=105  E=147  
-J=480   S=202  E=147  
-J=481   S=105  E=148  
-J=482   S=202  E=148  
-J=483   S=105  E=149  
-J=484   S=202  E=149  
-J=485   S=105  E=150  
-J=486   S=202  E=150  
-J=487   S=105  E=151  
-J=488   S=202  E=151  
-J=489   S=105  E=152  
-J=490   S=202  E=152  
-J=491   S=105  E=153  
-J=492   S=202  E=153  
-J=493   S=105  E=154  
-J=494   S=202  E=154  
-J=495   S=105  E=155  
-J=496   S=202  E=155  
-J=497   S=105  E=156  
-J=498   S=202  E=156  
-J=499   S=105  E=157  
-J=500   S=202  E=157  
-J=501   S=105  E=158  
-J=502   S=202  E=158  
-J=503   S=105  E=159  
-J=504   S=202  E=159  
-J=505   S=105  E=160  
-J=506   S=202  E=160  
-J=507   S=105  E=161  
-J=508   S=202  E=161  
-J=509   S=105  E=162  
-J=510   S=202  E=162  
-J=511   S=105  E=163  
-J=512   S=202  E=163  
-J=513   S=105  E=164  
-J=514   S=202  E=164  
-J=515   S=105  E=165  
-J=516   S=202  E=165  
-J=517   S=105  E=166  
-J=518   S=202  E=166  
-J=519   S=105  E=167  
-J=520   S=202  E=167  
-J=521   S=105  E=168  
-J=522   S=202  E=168  
-J=523   S=105  E=169  
-J=524   S=202  E=169  
-J=525   S=105  E=170  
-J=526   S=202  E=170  
-J=527   S=105  E=171  
-J=528   S=202  E=171  
-J=529   S=105  E=172  
-J=530   S=202  E=172  
-J=531   S=105  E=173  
-J=532   S=202  E=173  
-J=533   S=105  E=174  
-J=534   S=202  E=174  
-J=535   S=105  E=175  
-J=536   S=202  E=175  
-J=537   S=105  E=176  
-J=538   S=202  E=176  
-J=539   S=105  E=177  
-J=540   S=202  E=177  
-J=541   S=105  E=178  
-J=542   S=202  E=178  
-J=543   S=105  E=179  
-J=544   S=202  E=179  
-J=545   S=105  E=180  
-J=546   S=202  E=180  
-J=547   S=105  E=181  
-J=548   S=202  E=181  
-J=549   S=105  E=182  
-J=550   S=202  E=182  
-J=551   S=105  E=183  
-J=552   S=202  E=183  
-J=553   S=105  E=184  
-J=554   S=202  E=184  
-J=555   S=105  E=185  
-J=556   S=202  E=185  
-J=557   S=105  E=186  
-J=558   S=202  E=186  
-J=559   S=105  E=187  
-J=560   S=202  E=187  
-J=561   S=105  E=188  
-J=562   S=202  E=188  
-J=563   S=105  E=189  
-J=564   S=202  E=189  
-J=565   S=105  E=190  
-J=566   S=202  E=190  
-J=567   S=105  E=191  
-J=568   S=202  E=191  
-J=569   S=105  E=192  
-J=570   S=202  E=192  
-J=571   S=105  E=193  
-J=572   S=202  E=193  
-J=573   S=105  E=194  
-J=574   S=202  E=194  
-J=575   S=105  E=195  
-J=576   S=202  E=195  
-J=577   S=105  E=196  
-J=578   S=202  E=196  
-J=579   S=105  E=197  
-J=580   S=202  E=197  
-J=581   S=105  E=198  
-J=582   S=202  E=198  
-J=583   S=105  E=199  
-J=584   S=202  E=199  
-J=585   S=105  E=200  
-J=586   S=202  E=200  
-J=587   S=208  E=201  
-J=588   S=201  E=202  
-J=589   S=203  E=202  
-J=590   S=204  E=202  
-J=591   S=205  E=202  
-J=592   S=206  E=202  
-J=593   S=208  E=203  
-J=594   S=208  E=204  
-J=595   S=208  E=205  
-J=596   S=208  E=206  
-J=597   S=208  E=207  
-J=598   S=207  E=208  
-J=599   S=209  E=208  
-J=600   S=210  E=208  
-J=601   S=211  E=208  
-J=602   S=212  E=208  
-J=603   S=213  E=208  
-J=604   S=214  E=208  
-J=605   S=215  E=208  
-J=606   S=216  E=208  
-J=607   S=217  E=208  
-J=608   S=218  E=208  
-J=609   S=219  E=208  
-J=610   S=220  E=208  
-J=611   S=221  E=208  
-J=612   S=222  E=208  
-J=613   S=223  E=208  
-J=614   S=224  E=208  
-J=615   S=225  E=208  
-J=616   S=226  E=208  
-J=617   S=227  E=208  
-J=618   S=228  E=208  
-J=619   S=229  E=208  
-J=620   S=230  E=208  
-J=621   S=231  E=208  
-J=622   S=232  E=208  
-J=623   S=233  E=208  
-J=624   S=234  E=208  
-J=625   S=235  E=208  
-J=626   S=236  E=208  
-J=627   S=237  E=208  
-J=628   S=238  E=208  
-J=629   S=239  E=208  
-J=630   S=240  E=208  
-J=631   S=241  E=208  
-J=632   S=242  E=208  
-J=633   S=243  E=208  
-J=634   S=244  E=208  
-J=635   S=245  E=208  
-J=636   S=246  E=208  
-J=637   S=247  E=208  
-J=638   S=248  E=208  
-J=639   S=249  E=208  
-J=640   S=250  E=208  
-J=641   S=251  E=208  
-J=642   S=252  E=208  
-J=643   S=253  E=208  
-J=644   S=254  E=208  
-J=645   S=255  E=208  
-J=646   S=256  E=208  
-J=647   S=257  E=208  
-J=648   S=258  E=208  
-J=649   S=259  E=208  
-J=650   S=260  E=208  
-J=651   S=261  E=208  
-J=652   S=262  E=208  
-J=653   S=263  E=208  
-J=654   S=264  E=208  
-J=655   S=265  E=208  
-J=656   S=266  E=208  
-J=657   S=267  E=208  
-J=658   S=268  E=208  
-J=659   S=269  E=208  
-J=660   S=270  E=208  
-J=661   S=271  E=208  
-J=662   S=272  E=208  
-J=663   S=273  E=208  
-J=664   S=274  E=208  
-J=665   S=275  E=208  
-J=666   S=276  E=208  
-J=667   S=277  E=208  
-J=668   S=278  E=208  
-J=669   S=279  E=208  
-J=670   S=280  E=208  
-J=671   S=281  E=208  
-J=672   S=282  E=208  
-J=673   S=283  E=208  
-J=674   S=284  E=208  
-J=675   S=285  E=208  
-J=676   S=286  E=208  
-J=677   S=287  E=208  
-J=678   S=288  E=208  
-J=679   S=289  E=208  
-J=680   S=290  E=208  
-J=681   S=291  E=208  
-J=682   S=292  E=208  
-J=683   S=293  E=208  
-J=684   S=294  E=208  
-J=685   S=295  E=208  
-J=686   S=296  E=208  
-J=687   S=297  E=208  
-J=688   S=298  E=208  
-J=689   S=299  E=208  
-J=690   S=300  E=208  
-J=691   S=301  E=208  
-J=692   S=302  E=208  
-J=693   S=303  E=208  
-J=694   S=304  E=208  
-J=695   S=208  E=209  
-J=696   S=208  E=210  
-J=697   S=208  E=211  
-J=698   S=208  E=212  
-J=699   S=208  E=213  
-J=700   S=208  E=214  
-J=701   S=208  E=215  
-J=702   S=208  E=216  
-J=703   S=208  E=217  
-J=704   S=208  E=218  
-J=705   S=208  E=219  
-J=706   S=208  E=220  
-J=707   S=208  E=221  
-J=708   S=208  E=222  
-J=709   S=208  E=223  
-J=710   S=208  E=224  
-J=711   S=208  E=225  
-J=712   S=208  E=226  
-J=713   S=208  E=227  
-J=714   S=208  E=228  
-J=715   S=208  E=229  
-J=716   S=208  E=230  
-J=717   S=208  E=231  
-J=718   S=208  E=232  
-J=719   S=208  E=233  
-J=720   S=208  E=234  
-J=721   S=208  E=235  
-J=722   S=208  E=236  
-J=723   S=208  E=237  
-J=724   S=208  E=238  
-J=725   S=208  E=239  
-J=726   S=208  E=240  
-J=727   S=208  E=241  
-J=728   S=208  E=242  
-J=729   S=208  E=243  
-J=730   S=208  E=244  
-J=731   S=208  E=245  
-J=732   S=208  E=246  
-J=733   S=208  E=247  
-J=734   S=208  E=248  
-J=735   S=208  E=249  
-J=736   S=208  E=250  
-J=737   S=208  E=251  
-J=738   S=208  E=252  
-J=739   S=208  E=253  
-J=740   S=208  E=254  
-J=741   S=208  E=255  
-J=742   S=208  E=256  
-J=743   S=208  E=257  
-J=744   S=208  E=258  
-J=745   S=208  E=259  
-J=746   S=208  E=260  
-J=747   S=208  E=261  
-J=748   S=208  E=262  
-J=749   S=208  E=263  
-J=750   S=208  E=264  
-J=751   S=208  E=265  
-J=752   S=208  E=266  
-J=753   S=208  E=267  
-J=754   S=208  E=268  
-J=755   S=208  E=269  
-J=756   S=208  E=270  
-J=757   S=208  E=271  
-J=758   S=208  E=272  
-J=759   S=208  E=273  
-J=760   S=208  E=274  
-J=761   S=208  E=275  
-J=762   S=208  E=276  
-J=763   S=208  E=277  
-J=764   S=208  E=278  
-J=765   S=208  E=279  
-J=766   S=208  E=280  
-J=767   S=208  E=281  
-J=768   S=208  E=282  
-J=769   S=208  E=283  
-J=770   S=208  E=284  
-J=771   S=208  E=285  
-J=772   S=208  E=286  
-J=773   S=208  E=287  
-J=774   S=208  E=288  
-J=775   S=208  E=289  
-J=776   S=208  E=290  
-J=777   S=208  E=291  
-J=778   S=208  E=292  
-J=779   S=208  E=293  
-J=780   S=208  E=294  
-J=781   S=208  E=295  
-J=782   S=208  E=296  
-J=783   S=208  E=297  
-J=784   S=208  E=298  
-J=785   S=208  E=299  
-J=786   S=208  E=300  
-J=787   S=208  E=301  
-J=788   S=208  E=302  
-J=789   S=208  E=303  
-J=790   S=306  E=304  
-J=791   S=0    E=305  
+J=1     S=16   E=1    
+J=2     S=1    E=2    
+J=3     S=3    E=2    
+J=4     S=4    E=2    
+J=5     S=5    E=2    
+J=6     S=6    E=2    
+J=7     S=7    E=2    
+J=8     S=8    E=2    
+J=9     S=9    E=2    
+J=10    S=10   E=2    
+J=11    S=11   E=2    
+J=12    S=12   E=2    
+J=13    S=13   E=2    
+J=14    S=14   E=2    
+J=15    S=36   E=2    
+J=16    S=37   E=2    
+J=17    S=38   E=2    
+J=18    S=39   E=2    
+J=19    S=40   E=2    
+J=20    S=41   E=2    
+J=21    S=42   E=2    
+J=22    S=43   E=2    
+J=23    S=44   E=2    
+J=24    S=45   E=2    
+J=25    S=46   E=2    
+J=26    S=47   E=2    
+J=27    S=48   E=2    
+J=28    S=73   E=2    
+J=29    S=74   E=2    
+J=30    S=75   E=2    
+J=31    S=76   E=2    
+J=32    S=77   E=2    
+J=33    S=78   E=2    
+J=34    S=79   E=2    
+J=35    S=80   E=2    
+J=36    S=81   E=2    
+J=37    S=82   E=2    
+J=38    S=83   E=2    
+J=39    S=84   E=2    
+J=40    S=85   E=2    
+J=41    S=113  E=2    
+J=42    S=114  E=2    
+J=43    S=115  E=2    
+J=44    S=116  E=2    
+J=45    S=117  E=2    
+J=46    S=118  E=2    
+J=47    S=119  E=2    
+J=48    S=120  E=2    
+J=49    S=121  E=2    
+J=50    S=122  E=2    
+J=51    S=123  E=2    
+J=52    S=124  E=2    
+J=53    S=125  E=2    
+J=54    S=152  E=2    
+J=55    S=153  E=2    
+J=56    S=154  E=2    
+J=57    S=155  E=2    
+J=58    S=156  E=2    
+J=59    S=157  E=2    
+J=60    S=158  E=2    
+J=61    S=159  E=2    
+J=62    S=160  E=2    
+J=63    S=161  E=2    
+J=64    S=162  E=2    
+J=65    S=163  E=2    
+J=66    S=164  E=2    
+J=67    S=185  E=2    
+J=68    S=186  E=2    
+J=69    S=187  E=2    
+J=70    S=188  E=2    
+J=71    S=189  E=2    
+J=72    S=190  E=2    
+J=73    S=191  E=2    
+J=74    S=192  E=2    
+J=75    S=193  E=2    
+J=76    S=194  E=2    
+J=77    S=195  E=2    
+J=78    S=196  E=2    
+J=79    S=197  E=2    
+J=80    S=220  E=2    
+J=81    S=221  E=2    
+J=82    S=222  E=2    
+J=83    S=223  E=2    
+J=84    S=224  E=2    
+J=85    S=225  E=2    
+J=86    S=226  E=2    
+J=87    S=227  E=2    
+J=88    S=228  E=2    
+J=89    S=229  E=2    
+J=90    S=230  E=2    
+J=91    S=231  E=2    
+J=92    S=232  E=2    
+J=93    S=255  E=2    
+J=94    S=256  E=2    
+J=95    S=257  E=2    
+J=96    S=258  E=2    
+J=97    S=259  E=2    
+J=98    S=260  E=2    
+J=99    S=261  E=2    
+J=100   S=262  E=2    
+J=101   S=263  E=2    
+J=102   S=264  E=2    
+J=103   S=265  E=2    
+J=104   S=266  E=2    
+J=105   S=267  E=2    
+J=106   S=294  E=2    
+J=107   S=295  E=2    
+J=108   S=296  E=2    
+J=109   S=297  E=2    
+J=110   S=298  E=2    
+J=111   S=299  E=2    
+J=112   S=300  E=2    
+J=113   S=301  E=2    
+J=114   S=302  E=2    
+J=115   S=303  E=2    
+J=116   S=304  E=2    
+J=117   S=305  E=2    
+J=118   S=306  E=2    
+J=119   S=16   E=3    
+J=120   S=16   E=4    
+J=121   S=16   E=5    
+J=122   S=16   E=6    
+J=123   S=16   E=7    
+J=124   S=16   E=8    
+J=125   S=16   E=9    
+J=126   S=16   E=10   
+J=127   S=16   E=11   
+J=128   S=16   E=12   
+J=129   S=16   E=13   
+J=130   S=16   E=14   
+J=131   S=20   E=15   
+J=132   S=15   E=16   
+J=133   S=17   E=16   
+J=134   S=18   E=16   
+J=135   S=20   E=17   
+J=136   S=20   E=18   
+J=137   S=28   E=19   
+J=138   S=19   E=20   
+J=139   S=21   E=20   
+J=140   S=22   E=20   
+J=141   S=23   E=20   
+J=142   S=24   E=20   
+J=143   S=25   E=20   
+J=144   S=26   E=20   
+J=145   S=27   E=20   
+J=146   S=28   E=21   
+J=147   S=28   E=22   
+J=148   S=28   E=23   
+J=149   S=28   E=24   
+J=150   S=28   E=25   
+J=151   S=28   E=26   
+J=152   S=28   E=27   
+J=153   S=29   E=28   
+J=154   S=31   E=29   
+J=155   S=327  E=30   
+J=156   S=30   E=31   
+J=157   S=32   E=31   
+J=158   S=33   E=31   
+J=159   S=34   E=31   
+J=160   S=35   E=31   
+J=161   S=327  E=32   
+J=162   S=327  E=33   
+J=163   S=327  E=34   
+J=164   S=327  E=35   
+J=165   S=50   E=36   
+J=166   S=50   E=37   
+J=167   S=50   E=38   
+J=168   S=50   E=39   
+J=169   S=50   E=40   
+J=170   S=50   E=41   
+J=171   S=50   E=42   
+J=172   S=50   E=43   
+J=173   S=50   E=44   
+J=174   S=50   E=45   
+J=175   S=50   E=46   
+J=176   S=50   E=47   
+J=177   S=50   E=48   
+J=178   S=56   E=49   
+J=179   S=49   E=50   
+J=180   S=51   E=50   
+J=181   S=52   E=50   
+J=182   S=53   E=50   
+J=183   S=54   E=50   
+J=184   S=56   E=51   
+J=185   S=56   E=52   
+J=186   S=56   E=53   
+J=187   S=56   E=54   
+J=188   S=65   E=55   
+J=189   S=55   E=56   
+J=190   S=57   E=56   
+J=191   S=58   E=56   
+J=192   S=59   E=56   
+J=193   S=60   E=56   
+J=194   S=61   E=56   
+J=195   S=62   E=56   
+J=196   S=63   E=56   
+J=197   S=65   E=57   
+J=198   S=65   E=58   
+J=199   S=65   E=59   
+J=200   S=65   E=60   
+J=201   S=65   E=61   
+J=202   S=65   E=62   
+J=203   S=65   E=63   
+J=204   S=68   E=64   
+J=205   S=64   E=65   
+J=206   S=66   E=65   
+J=207   S=68   E=66   
+J=208   S=327  E=67   
+J=209   S=67   E=68   
+J=210   S=69   E=68   
+J=211   S=70   E=68   
+J=212   S=71   E=68   
+J=213   S=72   E=68   
+J=214   S=327  E=69   
+J=215   S=327  E=70   
+J=216   S=327  E=71   
+J=217   S=327  E=72   
+J=218   S=87   E=73   
+J=219   S=87   E=74   
+J=220   S=87   E=75   
+J=221   S=87   E=76   
+J=222   S=87   E=77   
+J=223   S=87   E=78   
+J=224   S=87   E=79   
+J=225   S=87   E=80   
+J=226   S=87   E=81   
+J=227   S=87   E=82   
+J=228   S=87   E=83   
+J=229   S=87   E=84   
+J=230   S=87   E=85   
+J=231   S=91   E=86   
+J=232   S=86   E=87   
+J=233   S=88   E=87   
+J=234   S=89   E=87   
+J=235   S=91   E=88   
+J=236   S=91   E=89   
+J=237   S=91   E=90   
+J=238   S=90   E=91   
+J=239   S=92   E=91   
+J=240   S=93   E=91   
+J=241   S=94   E=91   
+J=242   S=95   E=91   
+J=243   S=96   E=91   
+J=244   S=97   E=91   
+J=245   S=98   E=91   
+J=246   S=99   E=91   
+J=247   S=100  E=91   
+J=248   S=101  E=91   
+J=249   S=102  E=91   
+J=250   S=103  E=91   
+J=251   S=91   E=92   
+J=252   S=91   E=93   
+J=253   S=91   E=94   
+J=254   S=91   E=95   
+J=255   S=105  E=96   
+J=256   S=105  E=97   
+J=257   S=105  E=98   
+J=258   S=105  E=99   
+J=259   S=105  E=100  
+J=260   S=105  E=101  
+J=261   S=105  E=102  
+J=262   S=105  E=103  
+J=263   S=108  E=104  
+J=264   S=104  E=105  
+J=265   S=106  E=105  
+J=266   S=108  E=106  
+J=267   S=327  E=107  
+J=268   S=107  E=108  
+J=269   S=109  E=108  
+J=270   S=110  E=108  
+J=271   S=111  E=108  
+J=272   S=112  E=108  
+J=273   S=327  E=109  
+J=274   S=327  E=110  
+J=275   S=327  E=111  
+J=276   S=327  E=112  
+J=277   S=127  E=113  
+J=278   S=127  E=114  
+J=279   S=127  E=115  
+J=280   S=127  E=116  
+J=281   S=127  E=117  
+J=282   S=127  E=118  
+J=283   S=127  E=119  
+J=284   S=127  E=120  
+J=285   S=127  E=121  
+J=286   S=127  E=122  
+J=287   S=127  E=123  
+J=288   S=127  E=124  
+J=289   S=127  E=125  
+J=290   S=131  E=126  
+J=291   S=126  E=127  
+J=292   S=128  E=127  
+J=293   S=129  E=127  
+J=294   S=131  E=128  
+J=295   S=131  E=129  
+J=296   S=137  E=130  
+J=297   S=130  E=131  
+J=298   S=132  E=131  
+J=299   S=133  E=131  
+J=300   S=134  E=131  
+J=301   S=135  E=131  
+J=302   S=137  E=132  
+J=303   S=137  E=133  
+J=304   S=137  E=134  
+J=305   S=137  E=135  
+J=306   S=144  E=136  
+J=307   S=136  E=137  
+J=308   S=138  E=137  
+J=309   S=139  E=137  
+J=310   S=140  E=137  
+J=311   S=141  E=137  
+J=312   S=142  E=137  
+J=313   S=144  E=138  
+J=314   S=144  E=139  
+J=315   S=144  E=140  
+J=316   S=144  E=141  
+J=317   S=144  E=142  
+J=318   S=147  E=143  
+J=319   S=143  E=144  
+J=320   S=145  E=144  
+J=321   S=147  E=145  
+J=322   S=327  E=146  
+J=323   S=146  E=147  
+J=324   S=148  E=147  
+J=325   S=149  E=147  
+J=326   S=150  E=147  
+J=327   S=151  E=147  
+J=328   S=327  E=148  
+J=329   S=327  E=149  
+J=330   S=327  E=150  
+J=331   S=327  E=151  
+J=332   S=166  E=152  
+J=333   S=166  E=153  
+J=334   S=166  E=154  
+J=335   S=166  E=155  
+J=336   S=166  E=156  
+J=337   S=166  E=157  
+J=338   S=166  E=158  
+J=339   S=166  E=159  
+J=340   S=166  E=160  
+J=341   S=166  E=161  
+J=342   S=166  E=162  
+J=343   S=166  E=163  
+J=344   S=166  E=164  
+J=345   S=170  E=165  
+J=346   S=165  E=166  
+J=347   S=167  E=166  
+J=348   S=168  E=166  
+J=349   S=170  E=167  
+J=350   S=170  E=168  
+J=351   S=177  E=169  
+J=352   S=169  E=170  
+J=353   S=171  E=170  
+J=354   S=172  E=170  
+J=355   S=173  E=170  
+J=356   S=174  E=170  
+J=357   S=175  E=170  
+J=358   S=177  E=171  
+J=359   S=177  E=172  
+J=360   S=177  E=173  
+J=361   S=177  E=174  
+J=362   S=177  E=175  
+J=363   S=180  E=176  
+J=364   S=176  E=177  
+J=365   S=178  E=177  
+J=366   S=180  E=178  
+J=367   S=327  E=179  
+J=368   S=179  E=180  
+J=369   S=181  E=180  
+J=370   S=182  E=180  
+J=371   S=183  E=180  
+J=372   S=184  E=180  
+J=373   S=327  E=181  
+J=374   S=327  E=182  
+J=375   S=327  E=183  
+J=376   S=327  E=184  
+J=377   S=199  E=185  
+J=378   S=199  E=186  
+J=379   S=199  E=187  
+J=380   S=199  E=188  
+J=381   S=199  E=189  
+J=382   S=199  E=190  
+J=383   S=199  E=191  
+J=384   S=199  E=192  
+J=385   S=199  E=193  
+J=386   S=199  E=194  
+J=387   S=199  E=195  
+J=388   S=199  E=196  
+J=389   S=199  E=197  
+J=390   S=205  E=198  
+J=391   S=198  E=199  
+J=392   S=200  E=199  
+J=393   S=201  E=199  
+J=394   S=202  E=199  
+J=395   S=203  E=199  
+J=396   S=205  E=200  
+J=397   S=205  E=201  
+J=398   S=205  E=202  
+J=399   S=205  E=203  
+J=400   S=212  E=204  
+J=401   S=204  E=205  
+J=402   S=206  E=205  
+J=403   S=207  E=205  
+J=404   S=208  E=205  
+J=405   S=209  E=205  
+J=406   S=210  E=205  
+J=407   S=212  E=206  
+J=408   S=212  E=207  
+J=409   S=212  E=208  
+J=410   S=212  E=209  
+J=411   S=212  E=210  
+J=412   S=215  E=211  
+J=413   S=211  E=212  
+J=414   S=213  E=212  
+J=415   S=215  E=213  
+J=416   S=327  E=214  
+J=417   S=214  E=215  
+J=418   S=216  E=215  
+J=419   S=217  E=215  
+J=420   S=218  E=215  
+J=421   S=219  E=215  
+J=422   S=327  E=216  
+J=423   S=327  E=217  
+J=424   S=327  E=218  
+J=425   S=327  E=219  
+J=426   S=234  E=220  
+J=427   S=234  E=221  
+J=428   S=234  E=222  
+J=429   S=234  E=223  
+J=430   S=234  E=224  
+J=431   S=234  E=225  
+J=432   S=234  E=226  
+J=433   S=234  E=227  
+J=434   S=234  E=228  
+J=435   S=234  E=229  
+J=436   S=234  E=230  
+J=437   S=234  E=231  
+J=438   S=234  E=232  
+J=439   S=240  E=233  
+J=440   S=233  E=234  
+J=441   S=235  E=234  
+J=442   S=236  E=234  
+J=443   S=237  E=234  
+J=444   S=238  E=234  
+J=445   S=240  E=235  
+J=446   S=240  E=236  
+J=447   S=240  E=237  
+J=448   S=240  E=238  
+J=449   S=247  E=239  
+J=450   S=239  E=240  
+J=451   S=241  E=240  
+J=452   S=242  E=240  
+J=453   S=243  E=240  
+J=454   S=244  E=240  
+J=455   S=245  E=240  
+J=456   S=247  E=241  
+J=457   S=247  E=242  
+J=458   S=247  E=243  
+J=459   S=247  E=244  
+J=460   S=247  E=245  
+J=461   S=250  E=246  
+J=462   S=246  E=247  
+J=463   S=248  E=247  
+J=464   S=250  E=248  
+J=465   S=327  E=249  
+J=466   S=249  E=250  
+J=467   S=251  E=250  
+J=468   S=252  E=250  
+J=469   S=253  E=250  
+J=470   S=254  E=250  
+J=471   S=327  E=251  
+J=472   S=327  E=252  
+J=473   S=327  E=253  
+J=474   S=327  E=254  
+J=475   S=269  E=255  
+J=476   S=269  E=256  
+J=477   S=269  E=257  
+J=478   S=269  E=258  
+J=479   S=269  E=259  
+J=480   S=269  E=260  
+J=481   S=269  E=261  
+J=482   S=269  E=262  
+J=483   S=269  E=263  
+J=484   S=269  E=264  
+J=485   S=269  E=265  
+J=486   S=269  E=266  
+J=487   S=269  E=267  
+J=488   S=273  E=268  
+J=489   S=268  E=269  
+J=490   S=270  E=269  
+J=491   S=271  E=269  
+J=492   S=273  E=270  
+J=493   S=273  E=271  
+J=494   S=279  E=272  
+J=495   S=272  E=273  
+J=496   S=274  E=273  
+J=497   S=275  E=273  
+J=498   S=276  E=273  
+J=499   S=277  E=273  
+J=500   S=279  E=274  
+J=501   S=279  E=275  
+J=502   S=279  E=276  
+J=503   S=279  E=277  
+J=504   S=286  E=278  
+J=505   S=278  E=279  
+J=506   S=280  E=279  
+J=507   S=281  E=279  
+J=508   S=282  E=279  
+J=509   S=283  E=279  
+J=510   S=284  E=279  
+J=511   S=286  E=280  
+J=512   S=286  E=281  
+J=513   S=286  E=282  
+J=514   S=286  E=283  
+J=515   S=286  E=284  
+J=516   S=289  E=285  
+J=517   S=285  E=286  
+J=518   S=287  E=286  
+J=519   S=289  E=287  
+J=520   S=327  E=288  
+J=521   S=288  E=289  
+J=522   S=290  E=289  
+J=523   S=291  E=289  
+J=524   S=292  E=289  
+J=525   S=293  E=289  
+J=526   S=327  E=290  
+J=527   S=327  E=291  
+J=528   S=327  E=292  
+J=529   S=327  E=293  
+J=530   S=308  E=294  
+J=531   S=308  E=295  
+J=532   S=308  E=296  
+J=533   S=308  E=297  
+J=534   S=308  E=298  
+J=535   S=308  E=299  
+J=536   S=308  E=300  
+J=537   S=308  E=301  
+J=538   S=308  E=302  
+J=539   S=308  E=303  
+J=540   S=308  E=304  
+J=541   S=308  E=305  
+J=542   S=308  E=306  
+J=543   S=312  E=307  
+J=544   S=307  E=308  
+J=545   S=309  E=308  
+J=546   S=310  E=308  
+J=547   S=312  E=309  
+J=548   S=312  E=310  
+J=549   S=319  E=311  
+J=550   S=311  E=312  
+J=551   S=313  E=312  
+J=552   S=314  E=312  
+J=553   S=315  E=312  
+J=554   S=316  E=312  
+J=555   S=317  E=312  
+J=556   S=319  E=313  
+J=557   S=319  E=314  
+J=558   S=319  E=315  
+J=559   S=319  E=316  
+J=560   S=319  E=317  
+J=561   S=322  E=318  
+J=562   S=318  E=319  
+J=563   S=320  E=319  
+J=564   S=322  E=320  
+J=565   S=327  E=321  
+J=566   S=321  E=322  
+J=567   S=323  E=322  
+J=568   S=324  E=322  
+J=569   S=325  E=322  
+J=570   S=326  E=322  
+J=571   S=327  E=323  
+J=572   S=327  E=324  
+J=573   S=327  E=325  
+J=574   S=327  E=326  
+J=575   S=329  E=327  
+J=576   S=0    E=328  

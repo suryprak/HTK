@@ -1,126 +1,57 @@
-a                ae
-am               iy m
-an               ae n
-and              ae n d
-at               ae t
-bathroom         b aa th r uw m
-believe          b ih l iy v
-believes         b ih l iy v z
-birthday         b er th d ey
-book             b uh k
-both             b ow th
-brother          b r ah dh ax
-buy              b ay
-by               b ay
-cake             k ey k
-can              k ax n
-care  	         k ea
-car              k aa r
-cat              k ae t
-charming         ch aa m ih ng
-cheesecake       ch iy z k ey k
-chocolate        ch oh k l ax t
-choice           ch oy s
-church           ch er ch
-coffee           k oh f iy
-could            k uh d
-dad              d ae d
-difficult        d ih f ih k ax l t
-do               d uw
-does             d ah z
-down             d aw n
-drive            d r ay v
-either           ay dh ax
-everybody        eh v r ih b oh d iy
-feel             f iy l
-find             f ay n d
-finish           f ih n ih sh
-fluent           f l uw ax n t
-for              f ao r
-french           f r eh n ch
-german           jh er m ax n
-give             g ih v
-go               g ow
-god              g oh d
-goes             g ow z
-going            g ow ih ng
-good             g uh d
-got              g oh t
-have             hh ae v
-he               hh iy
-her              hh er
-home             hh ow m
-house            hh aw s
-huge             hh y uw jh
-I                ay
-idea             ay d ia
-if               ih f         
-in               ih n 
-interesting      ih n t r ax s t ih ng
-is               ih z
-it               ih t
-keys             k iy z
-kitchen          k ih ch ih n
-long             l oh ng
-makes            m ey k s
-me               m iy
-mom              m ax m
-movie            m uw v iy
-my               m ay
-nazi             n aa t s iy
-neither          n ay dh ax
-nor              n ao r
-not              n oh t
-now              n aw
-of               ax v
-on               ax n
-one              w ah n
-or               ao r
-out              aw t
-own              ow n
-party            p aa t iy
-park             p aa k
-popcorn          p oh p k ao n
-reading          r eh d ih ng
-read             r eh d
-same             s ey m
+a                ae sp
+an               ae n sp
+are              aa r sp
+at               ae t sp
+be               b iy sp
+book             b uh k sp
+cake             k ey k sp
+called           k ao l d sp
+chocolate        ch oh k l ax t sp
+country          k ah n t r iy sp
+eaten            iy t n sp
+eating           iy t ih ng sp
+go               g ow sp
+had              hh ae d sp
+have             hh ae v sp
+he               hh iy sp
+home             hh ow m sp
+hotel            hh ow t eh l sp
+I                ay sp
+in               ih n sp
+is               ih z sp
+language         l ae ng g w ih jh sp
+learn            l er n sp
+learning         l er n ih ng sp
+learnt           l er n t sp
+leaving          l iy v ih ng sp
+lawyer           l ao y ax r sp           
+movie            m uw v iy sp
+of               ax v sp
+office           oh f ih s sp
+park             p aa k sp
+party            p aa t iy sp
+prepare          p r ih p ea r
 SENT-END    []   sil
 SENT-START  []   sil
-she              sh iy
-sil              sil              
-sitting          s ih t ih ng
-sometimes        s ah m t ay m z
-stares           s t ea z
-story            s t ao r iy
-such             s ah ch
-sure             sh uh r
-takes            t ey k s
-tea              t iy
-that             dh ae t
-the              dh ax
-their            dh ea r
-them             dh eh m
-then             dh eh n
-throw            th r ow
-time             t ay m
-today            t ax d ey
-to               t ax
-told             t ow l d
-took             t uh k
-two              t uw
-understand       ah n d ax s t ae n d
-university       y uw n ih v er s ih t iy
-very             v eh r iy
-was              w ax z
-what             w oh t
-walked           w ao k t
-week             w iy k
-weeks            w iy k s
-what             w oh t
-will             w ih l
-with             w ih dh
-woman            w uh m ax n
-works            w er k s
-writing          r ay t ih ng
-you              y ax
+shall            sh ae l sp
+she              sh iy sp
+sil              sil sp
+sitting          s ih t ih ng sp
+staying	         s t ey ih ng sp
+talking          t ao k ih ng sp
+the              dh ax sp
+they             dh ey sp
+this             dh ih s sp
+throw            th r ow sp
+to               t ax sp
+university       y uw n ih v er s ih t iy sp
+visited          v ih z ih t ih d sp
+waiting          w ey t ih ng sp
+walk             w ao k sp
+watched          w oh ch t sp
+watching         w oh ch ih ng sp
+we               w iy sp
+will             w ih l sp
+worked           w er k t sp
+write            r ay t sp
 
